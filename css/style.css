@@ -26,11 +26,12 @@ nav {
     align-items: center;
     justify-content: space-around ;
     gap: 32px;
+
 }
 a {
     font-family: 'Sarala', sans-serif;
     text-decoration: none;
-    color: #fff2e7;git 
+    color: #fff2e7;
     font-weight: 400;
     font-size: 18px;
 }
