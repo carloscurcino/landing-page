@@ -26,7 +26,8 @@ nav {
     align-items: center;
     justify-content: space-around ;
     gap: 32px;
-
+    background:#2F2325;
+    width: 100%;
 }
 a {
     font-family: 'Sarala', sans-serif;
@@ -113,8 +114,23 @@ p {
     color: #ecd6c4;
 }
 footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     padding: 32px;
     border-top: 0.4px solid #FFF2E7;
     font-size: 48px;
     text-align: center;
+    gap: 17px;
 }
+footer div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 32px;
+    font-size: 48px;
+    text-align: center;
+}
+
